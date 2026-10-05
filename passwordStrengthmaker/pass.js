@@ -22,6 +22,7 @@
 
 const password = document.createElement("input");
 password.type = "password";
+
 password.placeholder = "Enter password";
 
 
