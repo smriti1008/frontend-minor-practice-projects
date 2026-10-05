@@ -24,6 +24,8 @@ const password = document.createElement("input");
 password.type = "password";
 password.placeholder = "Enter password";
 
+
+
 const confirmPassword = document.createElement("input");
 confirmPassword.type = "password";
 confirmPassword.placeholder = "Confirm password";
