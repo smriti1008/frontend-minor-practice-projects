@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sct.css">
+</head>
+<body>
+    <div class="cart">
+    <h1>Shopping cart</h1>
+    <div class="item" data-price="30">
+        <div>
+            <h3>Item 1</h3>
+            <p>Price: $30.00</p>
+        </div>
+        <div class="quantity-control">
+            <button class="decrease">-</button>
+            <span class="quantity">0</span>
+            <button class="increase">+</button>
+        </div>
+        <p> Subtotal: $<span class="Subtotal">0.00</span></p>
+    </div>
+
+    <div class="item" data-price="40">
+        <div>
+            <h3>Item 2</h3>
+            <p>Price: $40.00</p>
+        </div>
+        <div class="quantity-control">
+            <button class="decrease">-</button>
+            <span class="quantity">0</span>
+            <button class="increase">+</button>
+        </div>
+        <p>Subtotal: $<span class="Subtotal">0.00</span></p>
+    </div>
+    <div class="summary">
+        <p>Subtotal: $<span id="total">0.00</span></p>
+        <p>Discount: $<span id="Discount">0.00</span></p>
+        <h2>Final Total: $<span id="FinalTotal">0.00</span></h2>
+    </div>
+    </div>
+    <script src="./sct.js"></script>
+</body>
+</html>
