@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Shopping Cart</h1>
+    <h2>Items Table</h2>
+    <table id="itemsTable">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chips</td>
+                <td>Rs. 20</td>
+                <td>
+                    <button id="addToCartChips">Add to Cart</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Soda</td>
+                <td>Rs. 40</td>
+                <td>
+                    <button id="addToCartSoda">Add to Cart</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Cookies</td>
+                <td>Rs. 50</td>
+                <td>
+                    <button id="addToCartCookies">Add to Cart</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Shopping Cart Table</h2>
+    <table id="cartTable">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody id="cartBody">
+        </tbody>
+    </table>
+    <script src="./sc.js"></script>
+</body>
+</html>
