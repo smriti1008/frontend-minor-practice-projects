@@ -1,0 +1,7 @@
+.product li {
+    font-size: 25px;
+}
+
+.product li.hide {
+    display: none;
+}
