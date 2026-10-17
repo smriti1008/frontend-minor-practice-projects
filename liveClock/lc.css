@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: aqua;
+    align-items: center;
+}
+#time{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 150px;
+    color: bisque;
+}
