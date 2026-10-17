@@ -1,0 +1,89 @@
+/* Exercise 20 — Quiz */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+.page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.wrap {
+  width: 520px;
+  max-width: 100%;
+}
+
+.card {
+  width: 100%;
+  background: #fff;
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(2, 6, 23, 0.08);
+}
+
+.progress {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #7c3aed;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.question {
+  font-size: 1.2rem;
+  margin: 0 0 18px;
+}
+
+.options {
+  display: grid;
+  gap: 8px;
+}
+
+/* TODO (Task 2): style .option as a full-width button with a border,
+   padding and rounded corners. Style .option.selected so the chosen
+   answer is clearly highlighted. */
+.option {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.option.selected {
+    background-color: #ede9fe;
+    border-color: #7c3aed;
+    color: #5b21b6;
+}
+
+/* TODO (Task 2): style .next. */
+.next {
+    width: 100%;
+  margin-top: 18px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #7c3aed;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.result {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
