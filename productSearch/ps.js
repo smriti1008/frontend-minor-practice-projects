@@ -1,19 +1,43 @@
-const searchInput = document.getElementById("search");
+// const searchInput = document.getElementById("search");
+// const products = document.querySelectorAll(".product li")
+
+// function filterProducts(){
+//     const searchValue = searchInput.value.toLowerCase();
+
+//     products.forEach(function(product){
+//         const productName = product.getAttribute("data-name").toLowerCase();
+
+//         if(productName.includes(searchValue)){
+//             product.classList.remove("hide");
+//         }
+//         else{
+//             product.classList.add("hide");
+//         }
+//     })
+// }
+// searchInput.addEventListener("input", filterProducts);
+// filterProducts();
+
+
+
+
+const searchInput =  document.getElementById("search");
 const products = document.querySelectorAll(".product li")
 
 function filterProducts(){
     const searchValue = searchInput.value.toLowerCase();
-
     products.forEach(function(product){
         const productName = product.getAttribute("data-name").toLowerCase();
-
-        if(productName.includes(searchValue)){
+        if(productName.includes(searchValue))
+        {
             product.classList.remove("hide");
         }
-        else{
+        else
+        {
             product.classList.add("hide");
         }
     })
 }
-searchInput.addEventListener("input", filterProducts);
+
+searchInput.addEventListener("input", filterProducts)
 filterProducts();
