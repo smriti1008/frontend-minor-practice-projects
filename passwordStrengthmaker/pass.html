@@ -4,7 +4,12 @@
     <title>Password Validator</title>
 </head>
 <body>
-
+<label for="pass">Enter password</label>
+<input type="password" id="pass" placeholder="Enter password">
+<label for="confirm-pass">Confirm password</label>
+<input type="password" id="confirm-pass" placeholder="Confirm password">
+<p id="feedback-msg"></p>
+<button class="startbtn" onclick="validatePassword()">Submit password</button>
 <script src="./pass.js"></script>
 
 </body>
