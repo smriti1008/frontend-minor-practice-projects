@@ -1,0 +1,18 @@
+const likeBtn = document.getElementById("likeBtn")
+
+let isLiked = false;
+
+likeBtn.addEventListener("click", function(){
+    if(isLiked===false)
+    {
+        likeBtn.innerText ="❤️ Liked";
+        likeBtn.classList.add("liked");
+        isLiked=true;
+    }
+    else
+    {
+        likeBtn.innerText = "🤍 Like";
+        likeBtn.classList.remove("liked");
+        isLiked=false;
+    }
+})
