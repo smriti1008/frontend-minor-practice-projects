@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs Switcher</title>
+    <link rel="stylesheet" href="ts.css">
+</head>
+<body>
+
+    <h2>Tabs Switcher</h2>
+
+    <div class="tabs">
+        <button class="tab active" data-tab="home">Home</button>
+        <button class="tab" data-tab="about">About</button>
+        <button class="tab" data-tab="contact">Contact</button>
+    </div>
+
+    <div id="home" class="content active">
+        <h3>Home</h3>
+        <p>Welcome to the Home tab!</p>
+    </div>
+
+    <div id="about" class="content">
+        <h3>About</h3>
+        <p>This is the About section.</p>
+    </div>
+
+    <div id="contact" class="content">
+        <h3>Contact</h3>
+        <p>Contact us here.</p>
+    </div>
+
+    <script src="ts.js"></script>
+</body>
+</html>
